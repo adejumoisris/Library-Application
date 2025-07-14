@@ -5,7 +5,7 @@ public class BookRequest {
     private String bookTitle;
     private long timeStamp;
 
-    public BookRequest(User user, String bookTitle, long timeStamp) {
+    public BookRequest(User user, String bookTitle) {
         this.user = user;
         this.bookTitle = bookTitle;
         this.timeStamp = timeStamp;
